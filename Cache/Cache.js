@@ -82,7 +82,6 @@ WurflCloud_CacheNode.prototype = {
      * Creates and stores the cookie in the http_response
      */
     setDevice: function(user_agent, capabilities){
-    console.log("SET_DEVICE is called!");
         if (this.cookie_sent === true)
             return;
         var cookie_data={
